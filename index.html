@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VideoRecorder</title>
+
+    <style>
+
+        body {
+            background: #f3f3f3;
+        }
+
+        .wrapper {
+            display: block;
+            width: 620px;
+            margin: 0 auto;
+        }
+
+        video {
+            display: block;
+            width: 100%;
+            height: 420px;
+            background: #111;
+        }
+
+        .controls button { 
+            border: none;
+            cursor: pointer;
+            color: #fff;
+            background: red;
+            padding: 10px 20px;
+            margin-top: 20px;
+            border-radius: 3px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <video></video>
+
+        <div class="controls">
+            <button type="button" id="start">start</button>
+            <button type="button" id="stop">stop</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+<script src="main.js"></script>
